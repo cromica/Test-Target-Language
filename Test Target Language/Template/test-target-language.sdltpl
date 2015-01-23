@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<ProjectTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="536ab614-fff3-4a9f-bb4f-d99dd71786d0" SettingsBundleGuid="c7642856-7f26-4cf5-b194-95b325257f70" Version="4.0.0.0">
+  <LanguageDirections>
+    <LanguageDirection Guid="a847fdc8-700f-4724-9ee3-54b853566b64" SettingsBundleGuid="839da2f8-86a6-4925-86c4-6b02a2f5fbd2" TargetLanguageCode="fr-FR" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+    <LanguageDirection Guid="281363ae-9611-43cc-8acf-abb3554b9ead" SettingsBundleGuid="d226c658-38ee-436f-95d4-edc1ab44036e" TargetLanguageCode="de-DE" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+    <LanguageDirection Guid="13d13804-1781-4b58-a75c-1634bec0b8cb" SettingsBundleGuid="e105f29f-3e67-4cc8-8864-bce61ad4edf0" TargetLanguageCode="ja-JP" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+    <LanguageDirection Guid="d93f83e3-fd14-4f03-a918-fa9546534b38" SettingsBundleGuid="4e9e4ab3-3f57-48e0-a128-6a5049d14e84" TargetLanguageCode="el-GR" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+    <LanguageDirection Guid="ade33603-eed6-4c43-a7b7-ae2adee625f5" SettingsBundleGuid="b6222a6d-34b2-45f5-be16-b0ebbeae76c4" TargetLanguageCode="es-ES" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+  </LanguageDirections>
+  <TermbaseConfiguration>
+    <LanguageIndexMappings>
+      <Language>en-US</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>fr-FR</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>de-DE</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>ja-JP</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>el-GR</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>es-ES</Language>
+    </LanguageIndexMappings>
+    <RecognitionOptions>
+      <ShowWithNoAvailableTranslation>false</ShowWithNoAvailableTranslation>
+      <MinimumMatchValue>70</MinimumMatchValue>
+      <SearchDepth>200</SearchDepth>
+      <SearchOrder>Parallel</SearchOrder>
+    </RecognitionOptions>
+  </TermbaseConfiguration>
+  <SettingsBundles>
+    <SettingsBundle Guid="c7642856-7f26-4cf5-b194-95b325257f70">
+      <SettingsBundle>
+        <SettingsGroup Id="FileTypeManagerConfigurationSettingsGroup">
+          <Setting Id="FileTypeManagerConfigurationSettings">
+            <FileTypeManagerConfigurationList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SDL XLIFF 1.0 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: MadCap 1.2 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: Author-it 1.2 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SubRip v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PO files v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>TTX 2.0 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ITD v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Word 2000-2003 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Word 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint XP-2003 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2003 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Bilingual Workbench 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>RTF v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XHTML 1.1 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 5 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 4 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>FrameMaker 8.0 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Inx 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>IDML v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ICML Filter 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odt 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odp 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Ods 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>QuarkXPress v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 1.1-1.2 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WsXliff 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PDF v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>CSV v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Tab Delimited v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Java Resources v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: RESX v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: DITA 1.2 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>DocBook 4.5 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: ITS 1.0 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: Any v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Plain Text v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>TTX 2.0 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>HTML v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>QuarkXPress v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 1.1-1.2 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>CSV v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Tab Delimited v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: DITA 1.1 v 1.2.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>FrameMaker 8.0 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+            </FileTypeManagerConfigurationList>
+          </Setting>
+          <Setting Id="FileTypeManagerSubContentConfigurationSettings">
+            <FileTypeManagerConfigurationList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Embedded Content Plain Text v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html Embedded Content 5 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html Embedded Content 4 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+            </FileTypeManagerConfigurationList>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="XML: Any v 1.2.0.0">
+          <Setting Id="StructureInfoList">True</Setting>
+          <Setting Id="MatchRuleList">True</Setting>
+          <Setting Id="RegexEmbeddingEnabled">False</Setting>
+          <Setting Id="StructureInfoList0">sdl:cdata</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="GrammarCheckerSettings">
+          <Setting Id="ActivateDuringTranslation">False</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="SourceContentSettings">
+          <Setting Id="AllowSourceEditing">False</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="SDL XLIFF 1.0 v 1.0.0.0">
+          <Setting Id="RegexEmbeddingEnabled">True</Setting>
+          <Setting Id="StructureInfoList0">sdl:cdata</Setting>
+          <Setting Id="StructureInfoList">True</Setting>
+          <Setting Id="MatchRuleList6ContentTranslatable">True</Setting>
+          <Setting Id="MatchRuleList6StartTagRegex">&lt;i&gt;</Setting>
+          <Setting Id="MatchRuleList6EndTagRegex">&lt;/i&gt;</Setting>
+          <Setting Id="MatchRuleList6">True</Setting>
+          <Setting Id="MatchRuleList6TagType">TagPair</Setting>
+          <Setting Id="MatchRuleList5">True</Setting>
+          <Setting Id="MatchRuleList5ContentTranslatable">True</Setting>
+          <Setting Id="MatchRuleList5EndTagRegex">&lt;/strong&gt;</Setting>
+          <Setting Id="MatchRuleList5StartTagRegex">&lt;strong&gt;</Setting>
+          <Setting Id="MatchRuleList5TagType">TagPair</Setting>
+          <Setting Id="MatchRuleList3StartTagRegex">&lt;p&gt;</Setting>
+          <Setting Id="MatchRuleList4StartTagRegex">&lt;br /&gt;</Setting>
+          <Setting Id="MatchRuleList4">True</Setting>
+          <Setting Id="MatchRuleList3ContentTranslatable">True</Setting>
+          <Setting Id="MatchRuleList3EndTagRegex">&lt;/p&gt;</Setting>
+          <Setting Id="MatchRuleList3">True</Setting>
+          <Setting Id="MatchRuleList3TagType">TagPair</Setting>
+          <Setting Id="MatchRuleList2">True</Setting>
+          <Setting Id="MatchRuleList2ContentTranslatable">True</Setting>
+          <Setting Id="MatchRuleList2EndTagRegex">&lt;/h5&gt;</Setting>
+          <Setting Id="MatchRuleList2StartTagRegex">&lt;h5.*?&gt;</Setting>
+          <Setting Id="MatchRuleList2TagType">TagPair</Setting>
+          <Setting Id="MatchRuleList">True</Setting>
+          <Setting Id="MatchRuleList1StartTagRegex">(?:&lt;/|&lt;)span.*?&gt;</Setting>
+          <Setting Id="MatchRuleList1">True</Setting>
+          <Setting Id="MatchRuleList0StartTagRegex">(?:&lt;/|&lt;)div.*?&gt;</Setting>
+          <Setting Id="MatchRuleList0">True</Setting>
+          <Setting Id="MatchRuleList7">True</Setting>
+          <Setting Id="MatchRuleList7TagType">TagPair</Setting>
+          <Setting Id="MatchRuleList7StartTagRegex">&lt;blockquote&gt;</Setting>
+          <Setting Id="MatchRuleList7EndTagRegex">&lt;/blockquote&gt;</Setting>
+          <Setting Id="MatchRuleList7ContentTranslatable">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="PerfectMatchTaskSettings">
+          <Setting Id="MarkAsPerfectMatchAndLock">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="XLIFF 1.1-1.2 v 2.0.0.0">
+          <Setting Id="RegexEmbeddingEnabled">True</Setting>
+          <Setting Id="StructureInfoList">True</Setting>
+          <Setting Id="MatchRuleList">True</Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+  </SettingsBundles>
+  <InitialTaskTemplate Description="ComplexTask_Prepare_NoProjectTM_Description" Name="ComplexTask_Prepare_NoProjectTM_Name" Id="Sdl.ProjectApi.AutomaticTask.Prepare.NoProjectTM">
+    <SubTaskTemplates>
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Conversion" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Split" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.PerfectMatch" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Translate" />
+      <SubTaskTemplate TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" />
+    </SubTaskTemplates>
+  </InitialTaskTemplate>
+  <AnalysisBands>
+    <AnalysisBand MinimumMatchValue="50" />
+    <AnalysisBand MinimumMatchValue="75" />
+    <AnalysisBand MinimumMatchValue="85" />
+    <AnalysisBand MinimumMatchValue="95" />
+  </AnalysisBands>
+  <ManualTaskTemplates />
+  <Users>
+    <User UserId="GLOBAL\rocrisan" FullName="Romulus Crisan" Description="" Email="rocrisan@sdl.com" PhoneNumber="" EmailType="Smtp" />
+  </Users>
+  <CascadeItem OverrideParent="true" StopSearchingWhenResultsFound="false" />
+  <GeneralProjectTemplateInfo Description="" CreatedAt="2015-01-23T10:13:11.7495973Z" CreatedBy="GLOBAL\rocrisan" />
+</ProjectTemplate>

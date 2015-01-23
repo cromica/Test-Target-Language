@@ -1,0 +1,5 @@
+C:\Users\rocrisan\AppData\Roaming\SDL\SDL Trados Studio\11\Plugins\Packages\Test Target Language.exe
+C:\Users\rocrisan\AppData\Roaming\SDL\SDL Trados Studio\11\Plugins\Packages\Test Target Language.pdb
+C:\Work\Other Projects\Test Target Language\Test Target Language\obj\Debug\Test Target Language.csprojResolveAssemblyReference.cache
+C:\Work\Other Projects\Test Target Language\Test Target Language\obj\Debug\Test Target Language.exe
+C:\Work\Other Projects\Test Target Language\Test Target Language\obj\Debug\Test Target Language.pdb
